@@ -11,7 +11,7 @@ class Scraper:
         self.scraped_data = []
 
     def scrape_page(self, page):
-        url = f"{self.base_url}"
+        url = self.base_url if page == 1 else f"{self.base_url}page/{page}/"
         try:
             response = requests.get(url, proxies=self.proxies, timeout=10)
             response.raise_for_status()
