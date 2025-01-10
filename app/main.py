@@ -1,19 +1,15 @@
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+from fastapi import FastAPI, Depends
 from app.scraper import Scraper
-from typing import Optional
+from app.constants import BASE_URL
+from app.scrape_settings import ScrapeSettings
+from app.utils import validate_token
 
 app = FastAPI()
 
-class ScrapeSettings(BaseModel):
-    max_pages: Optional[int] = 3
-    proxy: Optional[str] = None
-
 @app.post("/scrape/")
-def scrape_catalogue(settings: ScrapeSettings):
-    base_url = "https://dentalstall.com/shop/"
+def scrape_dentalstall(settings: ScrapeSettings):
     page = 1
-    scraper = Scraper(base_url, proxies=settings.proxy)
+    scraper = Scraper(BASE_URL, proxies=settings.proxy)
     
     while True:
         if settings.max_pages and page > settings.max_pages:

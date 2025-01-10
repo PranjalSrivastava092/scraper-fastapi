@@ -1,10 +1,5 @@
 [
     {
-        "product_title": "1 x GDC Extraction Forceps Lower Molars",
-        "product_price": 850.0,
-        "path_to_image": "images/GDC-Extraction-Forceps-Lower-Molars-86A-Standard-FX86AS-300x300.jpg"
-    },
-    {
         "product_title": "3A MEDES Bleaching And Night Guard Sheets",
         "product_price": 1380.0,
         "path_to_image": "images/3a-medes-bleaching-and-night-guard-sheets-2-1-300x300.jpg"
@@ -358,5 +353,245 @@
         "product_title": "Angelus Flex Surgical Ejector",
         "product_price": 2490.0,
         "path_to_image": "images/eedd333-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Interlig Single Patient Strip",
+        "product_price": 1180.0,
+        "path_to_image": "images/angelus_interlig_single_patient_strip3-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Intermedium",
+        "product_price": 2990.0,
+        "path_to_image": "images/140430intermedium-calibrating-ruler-for-gutta-percha-points-angelus-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Mta",
+        "product_price": 3995.0,
+        "path_to_image": "images/angelus_mta_-_1_gm_white3-300x300.png"
+    },
+    {
+        "product_title": "Angelus MTA 0.14gm",
+        "product_price": 990.0,
+        "path_to_image": "images/2021-03-25-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Mta Applicator",
+        "product_price": 5495.0,
+        "path_to_image": "images/fdsvdsfds-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Mta Fillapex Small Tube 12gm",
+        "product_price": 3995.0,
+        "path_to_image": "images/angelus_mta_fillapex_small_tube_12gm3-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus MTA Fillapex Smartmix Syringe (4 gm)",
+        "product_price": 2550.0,
+        "path_to_image": "images/angelus_mta_fillapex_smartmix_syringe_4_gm_-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus MZ Primer",
+        "product_price": 3470.0,
+        "path_to_image": "images/angelus_mz_primer-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Pinjet (5002)",
+        "product_price": 600.0,
+        "path_to_image": "images/angelus_pinjet_5002_5-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Porcelain Conditioner",
+        "product_price": 745.0,
+        "path_to_image": "images/123_5-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Reforpin Universal Pack",
+        "product_price": 585.0,
+        "path_to_image": "images/reforpin_5-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Reforpost Carbon Fiber",
+        "product_price": 1325.0,
+        "path_to_image": "images/angelus_reforpost_carbon_fiber_-_refill1-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Reforpost Fibre Glass",
+        "product_price": 2050.0,
+        "path_to_image": "images/angelus_reforpost_fibre_glass_-_refill2-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Reforpost Fibre Glass Kit",
+        "product_price": 2650.0,
+        "path_to_image": "images/30kit-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Reforpost Key",
+        "product_price": 510.0,
+        "path_to_image": "images/angelus-reforpost-key-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Reforpost Metallic Refill",
+        "product_price": 660.0,
+        "path_to_image": "images/angelus_reforpost_metallic_refill4-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Reforpost Mix",
+        "product_price": 1325.0,
+        "path_to_image": "images/ANGE01_REFO05_01_001_7-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Repair Kit",
+        "product_price": 2955.0,
+        "path_to_image": "images/angelus_repair_kit-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Silano",
+        "product_price": 1130.0,
+        "path_to_image": "images/silano_1-300x300.jpg"
+    },
+    {
+        "product_title": "Angelus Syringe Sleeve",
+        "product_price": 1465.0,
+        "path_to_image": "images/angelus-syringe-sleeve-300x300.jpg"
+    },
+    {
+        "product_title": "API Allis Forceps",
+        "product_price": 525.0,
+        "path_to_image": "images/api12-300x300.jpg"
+    },
+    {
+        "product_title": "API Amalgam Carrier",
+        "product_price": 730.0,
+        "path_to_image": "images/arjun_1-300x300.jpg"
+    },
+    {
+        "product_title": "API Amalgam Well",
+        "product_price": 1050.0,
+        "path_to_image": "images/api13.jpg"
+    },
+    {
+        "product_title": "API Artery Forceps",
+        "product_price": 395.0,
+        "path_to_image": "images/18a-300x300.jpg"
+    },
+    {
+        "product_title": "API Articulating Paper Forceps",
+        "product_price": 460.0,
+        "path_to_image": "images/articulating_1_1-300x300.jpg"
+    },
+    {
+        "product_title": "API Articulator For Typhodont Jaw",
+        "product_price": 1280.0,
+        "path_to_image": "images/roles_cross_arcylic_teeth3aa-300x300.jpg"
+    },
+    {
+        "product_title": "API Articulator Hinge",
+        "product_price": 72.0,
+        "path_to_image": "images/api-articulator-hinge-plastic_1-300x300.jpg"
+    },
+    {
+        "product_title": "API Articulator Ultra P2",
+        "product_price": 13600.0,
+        "path_to_image": "images/ultra_p2-300x300.jpg"
+    },
+    {
+        "product_title": "Api Autoclavable PMT Tray",
+        "product_price": 150.0,
+        "path_to_image": "images/whatsapp_image_2021-12-28_at_6.53.48_pm-300x300.jpg"
+    },
+    {
+        "product_title": "Api Ball Burnisher (Bb18)",
+        "product_price": 175.0,
+        "path_to_image": "images/129-300x300.jpg"
+    },
+    {
+        "product_title": "API Band Pinching Plier",
+        "product_price": 4000.0,
+        "path_to_image": "images/pinchingapi1-300x300.jpg"
+    },
+    {
+        "product_title": "Api Band Pusher (4870)",
+        "product_price": 525.0,
+        "path_to_image": "images/134-300x300.jpg"
+    },
+    {
+        "product_title": "API Band Remover Plier #3 Anterior",
+        "product_price": 790.0,
+        "path_to_image": "images/plier_1_1-300x300.jpg"
+    },
+    {
+        "product_title": "API Base Former Silicon Ring Set of 5",
+        "product_price": 1195.0,
+        "path_to_image": "images/untitled-9-300x300.jpg"
+    },
+    {
+        "product_title": "Api Blue Periotome Set of 3",
+        "product_price": 1510.0,
+        "path_to_image": "images/blue-periotom-set-of-3-300x300.jpg"
+    },
+    {
+        "product_title": "API Bone Chisel & Mallet Premium",
+        "product_price": 175.0,
+        "path_to_image": "images/2_2_12fqa-300x300.jpg"
+    },
+    {
+        "product_title": "API Bone Collector",
+        "product_price": 3300.0,
+        "path_to_image": "images/bone_collector-300x300.jpg"
+    },
+    {
+        "product_title": "API Bone Curettes",
+        "product_price": 265.0,
+        "path_to_image": "images/untitled_design_26__1-300x300.jpg"
+    },
+    {
+        "product_title": "Api Bone File Miller",
+        "product_price": 335.0,
+        "path_to_image": "images/107-300x300.jpg"
+    },
+    {
+        "product_title": "API Bone Injector",
+        "product_price": 2000.0,
+        "path_to_image": "images/bone_injector-300x300.jpg"
+    },
+    {
+        "product_title": "API Bone Mill",
+        "product_price": 8500.0,
+        "path_to_image": "images/apibone111-300x300.jpg"
+    },
+    {
+        "product_title": "API Bone Rongeur",
+        "product_price": 975.0,
+        "path_to_image": "images/rongeur-1-300x300.jpg"
+    },
+    {
+        "product_title": "API Boone's Gauge",
+        "product_price": 630.0,
+        "path_to_image": "images/boone_s_gauge_1-300x300.jpg"
+    },
+    {
+        "product_title": "API BP Handle",
+        "product_price": 265.0,
+        "path_to_image": "images/api14-300x300.jpg"
+    },
+    {
+        "product_title": "API Bracket Height Gauge 0.18/0.22",
+        "product_price": 790.0,
+        "path_to_image": "images/morelli_bracket_positioner.2_1-300x300.jpg"
+    },
+    {
+        "product_title": "Api Bracket Holding Tweezer With Flap (1006)",
+        "product_price": 505.0,
+        "path_to_image": "images/258_1-300x300.jpg"
+    },
+    {
+        "product_title": "API Bracket Placing Tweezer",
+        "product_price": 525.0,
+        "path_to_image": "images/slim_direct_bond_bracket_tweezers2-300x300.jpg"
+    },
+    {
+        "product_title": "API Bracket Remover",
+        "product_price": 2650.0,
+        "path_to_image": "images/bracket_removerwaf-300x300.jpg"
     }
 ]
