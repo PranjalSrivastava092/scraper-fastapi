@@ -1,5 +1,7 @@
 import requests
 import json
+import os
+from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
 class Scraper:
@@ -30,7 +32,7 @@ class Scraper:
             self.scraped_data.append({
                 "product_title": name.split(' -')[0].strip(),
                 "product_price": self.parse_price(price),
-                "path_to_image": image_url,
+                "path_to_image": self.download_image(image_url),
             })
 
         return True
@@ -50,3 +52,18 @@ class Scraper:
             return float(price_str.replace("₹", "").replace(",", ""))
         except ValueError:
             return 0.0
+        
+    def download_image(self, image_url):
+        if image_url == "N/A":
+            return "N/A"
+        try:
+            response = requests.get(image_url, stream=True)
+            response.raise_for_status()
+            image_name = os.path.basename(urlparse(image_url).path)
+            image_path = os.path.join("images", image_name)
+            with open(image_path, "wb") as file:
+                for chunk in response.iter_content(1024):
+                    file.write(chunk)
+            return image_path
+        except Exception as e:
+            return "N/A"
