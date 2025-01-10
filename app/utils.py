@@ -9,7 +9,7 @@ from app.constants import STATIC_TOKEN, REDIS_DB, REDIS_HOST, REDIS_PORT
 
 r = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB, decode_responses=True)
 
-def validate_token(token: str = Depends(Query(...))):
+def validate_token(token: str):
     if token != STATIC_TOKEN:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,

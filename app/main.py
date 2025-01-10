@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Header
 from app.scraper import Scraper
 from app.constants import BASE_URL
 from app.scrape_settings import ScrapeSettings
@@ -7,7 +7,8 @@ from app.utils import validate_token
 app = FastAPI()
 
 @app.post("/scrape/")
-def scrape_dentalstall(settings: ScrapeSettings):
+def scrape_dentalstall(settings: ScrapeSettings, token: str = Header(...)):
+    validate_token(token)
     page = 1
     scraper = Scraper(BASE_URL, proxies=settings.proxy)
     
