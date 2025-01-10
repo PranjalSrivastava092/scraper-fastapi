@@ -28,8 +28,8 @@ class Scraper:
             image_url = product.select_one("img")['data-lazy-src'] if product.select_one("img") else "N/A"
 
             self.scraped_data.append({
-                "product_title": name,
-                "product_price": price,
+                "product_title": name.split(' -')[0].strip(),
+                "product_price": self.parse_price(price),
                 "path_to_image": image_url,
             })
 
@@ -44,3 +44,9 @@ class Scraper:
 
     def notify_status(self):
         print(f"Scraping completed. Total products scraped: {len(self.scraped_data)}")
+    
+    def parse_price(self, price_str):
+        try:
+            return float(price_str.replace("₹", "").replace(",", ""))
+        except ValueError:
+            return 0.0
