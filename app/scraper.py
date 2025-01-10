@@ -58,8 +58,28 @@ class Scraper:
     
     def save_to_json(self, file_name="data/res.json"):
         try:
+            if os.path.exists(file_name):
+                with open(file_name, "r") as file:
+                    existing_data = json.load(file)
+            else:
+                existing_data = []
+
+            for new_product in self.scraped_data:
+                existing_product = None
+                for product in existing_data:
+                    if product["product_title"] == new_product["product_title"]:
+                        existing_product = product
+                        break 
+
+                if existing_product:
+                    existing_product["product_price"] = new_product["product_price"]
+                    existing_product["path_to_image"] = new_product["path_to_image"]
+                else:
+                    existing_data.append(new_product)
+
             with open(file_name, "w") as file:
-                json.dump(self.scraped_data, file, indent=4)
+                json.dump(existing_data, file, indent=4)
+
         except Exception as e:
             print(f"Error saving data to {file_name}: {e}")
 
